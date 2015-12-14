@@ -17,11 +17,12 @@ public class StringPractice {
 
         String replaced = "";
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == 'x') {
+            char check = s.charAt(i);
+            if (check == 'x') {
                 replaced += 'o';
             }
             else {
-                replaced += s.charAt(i);
+                replaced += check;
             }
         }
         System.out.println("Replaced String: " + replaced); 
@@ -53,7 +54,7 @@ public class StringPractice {
     public static int myIndexOf(String s1, String check) {
         int itt = -1;
 
-        if (!(check.length() > s1.length())) {
+        if (!(check.length() > s1.length() || check.length() == 0 || check.equals(null))) {
             for (int i = 0; i < s1.length(); i++) {
                 if (i + check.length() > s1.length()) {
                     break;
