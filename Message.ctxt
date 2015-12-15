@@ -4,5 +4,5 @@ comment0.target=Message(java.lang.String,\ boolean)
 comment1.params=msg
 comment1.target=java.lang.String\ encrypt(java.lang.String)
 comment2.params=msg
-comment2.target=java.lang.String\ decrypt(java.lang.String)
+comment2.target=java.lang.String[]\ decrypt(java.lang.String)
 numComments=3
