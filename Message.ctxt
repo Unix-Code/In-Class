@@ -1,8 +1,12 @@
 #BlueJ class context
 comment0.params=message\ alreadyEncrypted
 comment0.target=Message(java.lang.String,\ boolean)
-comment1.params=msg
-comment1.target=java.lang.String\ encrypt(java.lang.String)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
 comment2.params=msg
-comment2.target=java.lang.String[]\ decrypt(java.lang.String)
-numComments=3
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment3.params=msg
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getDecryption()
+numComments=5
