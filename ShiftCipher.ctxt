@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShiftCipher()
+comment1.params=shift
+comment1.target=ShiftCipher(int)
+comment2.params=
+comment2.target=java.lang.String[]\ getCipherAlphabet()
+comment3.params=
+comment3.target=java.lang.String[]\ makeDefaultAlphabet()
+numComments=4
