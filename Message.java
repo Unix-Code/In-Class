@@ -59,7 +59,11 @@ public class Message {
         }
         return end.toString();
     }
-
+    
+    public String getMessage() {
+        return message;
+    }
+    
     public String getDecryption() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Passcode:");
