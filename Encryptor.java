@@ -4,7 +4,7 @@ public class Encryptor {
         String check = "";
 
         for (int i = 0; i < 100000; i++) {
-            check += (char)(Math.random()*27 + 'a');
+            check += (char)(Math.random()*26 + 'a');
         }
 
         Date start = new Date();
@@ -18,7 +18,7 @@ public class Encryptor {
         System.out.println(duration + "\n");
 
         start = new Date();
-        String decrypted = decrypt(encrypt(check));
+        String decrypted = decrypt(encrypted);
 
         System.out.println(decrypted + "\n");
 
