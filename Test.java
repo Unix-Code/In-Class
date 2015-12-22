@@ -5,4 +5,9 @@ public class Test {
             System.out.println((char)letter + " : " + letter);
         }
     }
+    
+    public static void printMessage() {
+        Message message = new Message("Hello, World!", Language.ENGLISH, false);
+        System.out.println(message + "\nLanguage: " + message.getLanguage() + "\nEncrypted? " + "\n" + message.isEncrypted());
+    }
 }

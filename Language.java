@@ -21,4 +21,17 @@ public enum Language {
             break;
         }
     }
+    
+    public String toString() {
+        String lang = null;
+        
+        if (this.equals(Language.ENGLISH)) {
+            lang = "English";
+        }
+        else if (this.equals(Language.RUSSIAN)) {
+            lang = "Russian";
+        }
+        
+        return lang;
+    }
 }

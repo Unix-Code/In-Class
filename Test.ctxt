@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=lang
 comment0.target=void\ printThis(Language)
-numComments=1
+comment1.params=
+comment1.target=void\ printMessage()
+numComments=2

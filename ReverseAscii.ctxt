@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=message\ alreadyEncrypted
+comment0.target=ReverseAscii(java.lang.String,\ boolean)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=msg
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment3.params=msg
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getMessage()
+comment5.params=
+comment5.target=java.lang.String\ getDecryption()
+numComments=6
