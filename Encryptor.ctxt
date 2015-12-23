@@ -1,8 +1,9 @@
 #BlueJ class context
-comment0.params=start
-comment0.target=Message\ encrypt(Message)
-comment1.params=start\ lang
-comment1.target=Message\ encrypt(java.lang.String,\ Language)
-comment2.params=start
-comment2.target=Message\ decrypt(Message)
+comment0.params=sStart\ theKey
+comment0.target=Message\ encrypt(Message,\ java.lang.String)
+comment1.params=start
+comment1.target=Message\ decrypt(Message)
+comment1.text=\r\n\ \ \ \ public\ static\ Message\ encrypt(String\ start,\ Language\ lang)\ {\r\n\ \ \ \ Message\ msg\ \=\ new\ Message(start,\ lang,\ false);\r\n\ \ \ \ msg\ \=\ encrypt(msg);\r\n\ \ \ \ return\ msg;\r\n\ \ \ \ }\r\n
+comment2.params=start\ sKey
+comment2.target=java.lang.String\ generateKey(java.lang.String,\ java.lang.String)
 numComments=3
