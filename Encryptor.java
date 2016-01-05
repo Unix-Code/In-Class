@@ -3,6 +3,7 @@ public class Encryptor {
      * Static method to encrypt a given input message given the key String
      * @param Message sStart
      * @param String theKey
+     * @return Message
      */
     public static Message encrypt(Message sStart, String theKey) {
         Message message;
@@ -26,6 +27,7 @@ public class Encryptor {
      * Static method to decrypt a given input message given the key String
      * @param Message sStart
      * @param String theKey
+     * @return Message
      */
     public static Message decrypt(Message sStart, String theKey) {
         Message message;
@@ -47,16 +49,17 @@ public class Encryptor {
     }
     
     /**
-     * Static method to generate a String object named Key
+     * Private Static method to generate a String object named Key
      * @param String start
      * @param String sKey
+     * @return String
      */
     private static String generateKey(String start, String sKey) {
         StringBuilder key = new StringBuilder();
         char[] theKey = sKey.toCharArray();
         
         for (int i = 0; i < start.length(); i++) {
-            key.append(theKey[i%5]);
+            key.append(theKey[i%sKey.length()]);
         }
         
         return key.toString();

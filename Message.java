@@ -58,6 +58,7 @@ public class Message {
     
     /**
      * Accessor method to return message reference
+     * @return message
      */
     public String getMessage() {
         return message;
@@ -65,6 +66,7 @@ public class Message {
     
     /**
      * Accessor method to return message as a String
+     * @return message
      */
     public String toString() {
         return message;
@@ -72,6 +74,7 @@ public class Message {
     
     /**
      * Boolean method to determine if the message is encrypted
+     * @return encrypted
      */
     public boolean isEncrypted() {
         return encrypted;
@@ -79,6 +82,7 @@ public class Message {
     
     /**
      * Accessor method to return the language of the message
+     * @return lang
      */
     public Language getLanguage() {
         return lang;
