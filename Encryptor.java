@@ -55,11 +55,7 @@ public class Encryptor {
      */
     private static String generateKey(String start, String sKey) {
         StringBuilder key = new StringBuilder();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> origin/master
         for (int i = 0; i < start.length(); i++) {
             key.append(sKey.charAt(i%sKey.length()));
         }
