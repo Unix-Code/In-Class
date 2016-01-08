@@ -6,10 +6,10 @@ public class Encryptor {
      * @return Message
      */
     public static Message encrypt(Message sStart, String theKey) {
-        Message message;
         StringBuilder encryption = new StringBuilder();
         String start = sStart.getMessage().toLowerCase();
         String key = generateKey(sStart.getMessage(), theKey);
+        
         for (int i = 0; i < start.length(); i++) {
             if (Character.isLetter(start.charAt(i)) == false) {
                 char nonLetter = (start.charAt(i) == ' ') ? Character.toUpperCase((char)sStart.getLanguage().alphabet[0]) : ((start.charAt(i) >= '0' && start.charAt(i/2) <= '9') ? (char)(start.charAt(i) - '0' + Character.toUpperCase((char)sStart.getLanguage().alphabet[1])) : start.charAt(i));
@@ -30,7 +30,6 @@ public class Encryptor {
      * @return Message
      */
     public static Message decrypt(Message sStart, String theKey) {
-        Message message;
         StringBuilder decryption = new StringBuilder();
         String start = sStart.getMessage();
         String key = generateKey(sStart.getMessage(), theKey);
@@ -56,10 +55,9 @@ public class Encryptor {
      */
     private static String generateKey(String start, String sKey) {
         StringBuilder key = new StringBuilder();
-        char[] theKey = sKey.toCharArray();
         
         for (int i = 0; i < start.length(); i++) {
-            key.append(theKey[i%sKey.length()]);
+            key.append(sKey.charAt(i%sKey.length()));
         }
         
         return key.toString();
