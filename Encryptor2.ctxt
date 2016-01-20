@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=sStart\ theKey
+comment0.target=Message\ encrypt(Message,\ java.lang.String)
+comment0.text=\r\n\ Static\ method\ to\ encrypt\ a\ given\ input\ message\ given\ the\ key\ String\r\n\ @param\ Message\ sStart\r\n\ @param\ String\ theKey\r\n\ @return\ Message\r\n
+comment1.params=sStart\ theKey
+comment1.target=Message\ decrypt(Message,\ java.lang.String)
+comment1.text=\r\n\ Static\ method\ to\ decrypt\ a\ given\ input\ message\ given\ the\ key\ String\r\n\ @param\ Message\ sStart\r\n\ @param\ String\ theKey\r\n\ @return\ Message\r\n
+comment2.params=start\ sKey
+comment2.target=java.lang.String\ generateKey(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Private\ Static\ method\ to\ generate\ a\ String\ object\ named\ Key\r\n\ @param\ String\ start\r\n\ @param\ String\ sKey\r\n\ @return\ String\r\n
+numComments=3
