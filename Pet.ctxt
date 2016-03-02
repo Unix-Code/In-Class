@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Pet()
-comment1.params=name\ sound
-comment1.target=Pet(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getName()
 comment2.params=
-comment2.target=java.lang.String\ sound()
+comment2.target=java.lang.String\ makeSound()
 numComments=3

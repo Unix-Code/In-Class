@@ -1,17 +1,15 @@
 public class Pet {
-    String name, sound;
-    
+    protected String name;
+
     public Pet() {
-        name = "Doggie";
-        sound = "woof woof";
+       name = "default pet";
     }
     
-    public Pet(String name, String sound) {
-        this.name = name;
-        this.sound = sound;
+    public String getName() {
+        return name;
     }
     
-    public String sound() {
-        return sound;
+    public String makeSound() {
+        return "default pet sound";
     }
 }
